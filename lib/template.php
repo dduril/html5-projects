@@ -81,7 +81,7 @@ function loadBottom(){
 <hr>
 
     <footer>
-        <p>&copy; </p>
+        <p>&nbsp;</p>
     </footer>
 
     </div><!-- /.container -->
