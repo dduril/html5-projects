@@ -81,9 +81,6 @@ function loadBottom(){
         <p>&nbsp;</p>
     </footer>
 
-    </div><!-- /.container -->
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
