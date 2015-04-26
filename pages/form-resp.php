@@ -8,7 +8,8 @@
 
 include ("../lib/template.php");
 
-loadTop();
+$page_title = "HTML5 Examples";
+loadTop($page_title);
 ?>
 <style>
     label{

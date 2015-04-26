@@ -8,7 +8,8 @@
 
 include ("../lib/template.php");
 
-loadTop();
+$page_title = "CSS3 Examples";
+loadTop($page_title);
 ?>
 <style type="text/css">
     p{

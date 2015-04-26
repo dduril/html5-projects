@@ -1,11 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Doug
- * Date: 4/23/2015
- * Time: 6:45 PM
+/***
+ * @param $page_title
  */
-function loadTop(){
+function loadTop($page_title){
     ?>
     <!DOCTYPE html>
     <html>
@@ -67,7 +64,7 @@ function loadTop(){
     </style>
     <div class="jumbotron">
         <div class="container">
-            <h1>HTML5 Samples</h1>
+            <h1><?php echo $page_title; ?></h1>
             <p></p>
         </div>
     </div>
