@@ -7,7 +7,7 @@ function loadTop($page_title){
     <!DOCTYPE html>
     <html>
     <head>
-        <title>HTML5 Samples</title>
+        <title>HTML5 Examples</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
