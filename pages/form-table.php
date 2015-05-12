@@ -15,6 +15,7 @@ loadTop($page_title);
     table, tr, td{
         margin: 5px;
         padding: 5px;
+		vertical-align: top;
     }
 </style>
 
@@ -41,7 +42,7 @@ loadTop($page_title);
                                 First Name:
                             </td>
                             <td>
-                                <input type="text" id="firstName" maxlength="25"/>
+                                <input type="text" id="firstName" size="30" maxlength="25"/>
                             </td>
                         </tr>
                         <tr>
@@ -49,7 +50,7 @@ loadTop($page_title);
                                 Last Name:
                             </td>
                             <td>
-                                <input type="text" id="lastName" maxlength="25" />
+                                <input type="text" id="lastName" size="30" maxlength="25" />
                             </td>
                         </tr>
                         <tr>
@@ -57,7 +58,7 @@ loadTop($page_title);
                                 Favorite website:
                             </td>
                             <td>
-                                <input type="url" id="favoriteWebsite" />
+                                <input type="url" id="favoriteWebsite" size="30" />
                             </td>
                         </tr>
                         <tr>
@@ -73,21 +74,21 @@ loadTop($page_title);
                                 Programming languages:
                             </td>
                             <td>
-                                <input type="checkbox" id="chkCSharp" checked="checked" />C#
-                                <input type="checkbox" id="chkJava" />Java
-                                <input type="checkbox" id="chkPHP" />PHP
-                                <input type="checkbox" id="chkPython" />Python
-                                <input type="checkbox" id="chkRuby" />Ruby
+                                <input type="checkbox" id="chkCSharp" checked="checked" />&nbsp;C#<br />
+                                <input type="checkbox" id="chkJava" />&nbsp;Java<br />
+                                <input type="checkbox" id="chkPHP" />&nbsp;PHP<br />
+                                <input type="checkbox" id="chkPython" />&nbsp;Python<br />
+                                <input type="checkbox" id="chkRuby" />&nbsp;Ruby<br />
                             </td>
                         </tr>
                         <tr>
                             <td>Rate your experience:</td>
                             <td>
-                                <input type="radio" id="rdoOne" name="experience" />1 - Noob
-                                <input type="radio" id="rdoTwo" name="experience" />2 - Beginner
-                                <input type="radio" id="rdoThree" name="experience" />3 - Journeyman
-                                <input type="radio" id="rdoFour" name="experience" />4 - Expert
-                                <input type="radio" id="rdoFive" name="experience" />5 - Ninja
+                                <input type="radio" id="rdoOne" name="experience" />&nbsp;1 - Noob<br />
+                                <input type="radio" id="rdoTwo" name="experience" />&nbsp;2 - Beginner<br />
+                                <input type="radio" id="rdoThree" name="experience" />&nbsp;3 - Journeyman<br />
+                                <input type="radio" id="rdoFour" name="experience" />&nbsp;4 - Expert<br />
+                                <input type="radio" id="rdoFive" name="experience" />&nbsp;5 - Ninja<br />
                             </td>
                         </tr>
                         <tr>
@@ -95,7 +96,7 @@ loadTop($page_title);
                                 Comments:
                             </td>
                             <td>
-                                <textarea id="comments" rows="5" cols="25" spellcheck="true"></textarea>
+                                <textarea id="comments" rows="5" cols="30" spellcheck="true"></textarea>
                             </td>
                         </tr>
                         <tr>
@@ -103,15 +104,14 @@ loadTop($page_title);
                                 Email address:
                             </td>
                             <td>
-                                <input type="email" placeholder="me@somedomain.com" required />
+                                <input type="email" size="30" placeholder="me@somedomain.com" required />
                             </td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                <input type="submit"/>
-                                <input type="reset"/>
-                                <input type="button" value="Cancel"/>
+                                <input type="submit" class="btn btn-primary btn-s" />
+                                <input type="reset" class="btn btn-primary btn-s" />
                             </td>
                         </tr>
                     </table>

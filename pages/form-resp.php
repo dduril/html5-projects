@@ -71,7 +71,7 @@ loadTop($page_title);
                       </datalist>
 
                     <p><label> </label>
-                      <input type="submit" value="Submit Request"></p>
+                      <input type="submit" value="Submit Request" class="btn btn-primary btn-s" /></p>
 
                   </form>
             </div><!-- /.col-md-12 -->
